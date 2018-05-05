@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .parent{
+        position: relative;
+            min-height: 735px;
+            
+        }
+        .common-style{
+            
+            height: 200px;
+            width: 200px;
+           
+            
+            position: absolute;
+        }
+        .left-top{
+            background-color: black;
+            
+        }
+        .right-top{
+             background-color: blue;
+            right: 0;
+        }
+        .center{
+             background-color: green;
+            left: 43.5%;
+            top: 35%;
+        }
+        .left-bottom{
+             background-color: fuchsia;
+            bottom: 0;
+            
+        }
+        .right-bottom{
+             background-color:dodgerblue;
+            right: 0;
+            bottom: 0;
+            
+        }
+    
+    </style>
+</head>
+<body>
+   <div class="parent">
+       <div class="common-style left-top"></div>
+       <div class="common-style right-top"></div>
+       <div class="common-style center"></div>
+       <div class="common-style left-bottom"></div>
+       <div class="common-style right-bottom"></div>
+       
+   </div>
+    
+</body>
+</html>
